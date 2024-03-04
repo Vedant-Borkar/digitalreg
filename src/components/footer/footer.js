@@ -111,13 +111,13 @@ const Footer = () => {
                             <div className='col-md-3 part1'>
                                 <Link to='/'><img src={Logo} /></Link>
                                 <br /><br />
-                                <p>Awesome grocery store website template</p>
+                                <p>Awesome grocery store website</p>
                                 <br />
-
+{/* 
                                 <p><LocationOnOutlinedIcon /> <strong>Address</strong>: 5171 W Campbell Ave undefined Kent, Utah 53127 United States</p>
                                 <p><HeadphonesOutlinedIcon /> <strong>Call Us:</strong> (+91) - 540-025-124553 </p>
                                 <p><EmailOutlinedIcon /> <strong>Email:</strong> sale@Nest.com</p>
-                                <p><WatchLaterOutlinedIcon /> <strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>
+                                <p><WatchLaterOutlinedIcon /> <strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p> */}
 
                             </div>
 
@@ -181,7 +181,7 @@ const Footer = () => {
                             </div>
 
 
-                            <div className='col-md-3 part3'>
+                            {/* <div className='col-md-3 part3'>
                                 <h3>Install App</h3>
                                 <br className='res-hide'/>
                                 <p>From App Store or Google Play</p>
@@ -195,12 +195,12 @@ const Footer = () => {
 
                                 <p>Secured Payment Gateways</p>
                                 <img src={paymentImage} />
-                            </div>
+                            </div> */}
 
                         </div>
 
 
-                        <hr />
+                        {/* <hr />
 
 
 
@@ -251,7 +251,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
 
                     </div>
                 </footer>

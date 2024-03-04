@@ -216,7 +216,7 @@ const Home = (props) => {
 
 
 
-            <section className='topProductsSection'>
+            {/* <section className='topProductsSection'>
                 <div className='container-fluid'>
                     <div className='row'>
                         <div className='col'>
@@ -237,7 +237,7 @@ const Home = (props) => {
 
                     </div>
                 </div>
-            </section>
+            </section> */}
 
 
         </div>
