@@ -113,11 +113,11 @@ const Footer = () => {
                                 <br /><br />
                                 <p>Awesome grocery store website</p>
                                 <br />
-                             {/* 
-                                <p><LocationOnOutlinedIcon /> <strong>Address</strong>: 5171 W Campbell Ave undefined Kent, Utah 53127 United States</p>
+                                                        
+                                {/* <p><LocationOnOutlinedIcon /> <strong>Address</strong>: 5171 W Campbell Ave undefined Kent, Utah 53127 United States</p>
                                 <p><HeadphonesOutlinedIcon /> <strong>Call Us:</strong> (+91) - 540-025-124553 </p>
                                 <p><EmailOutlinedIcon /> <strong>Email:</strong> sale@Nest.com</p>
-                                <p><WatchLaterOutlinedIcon /> <strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p> 
+                                <p><WatchLaterOutlinedIcon /> <strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p>  */}
 
                             </div>
 
@@ -195,20 +195,17 @@ const Footer = () => {
 
                                 <p>Secured Payment Gateways</p>
                                 <img src={paymentImage} />
-                            </div> */}
+                            </div>  */}
 
-                        {/* </div> */}
-
-
-                        {/* <hr />
+                         </div> 
 
 
-
+                         
                         <div className='row lastStrip'>
-                            <div className='col-md-3 part_1'>
+                            {/* <div className='col-md-3 part_1'>
                                 <p>© 2024, Digireg
                                     All rights reserved</p>
-                            </div>
+                            </div> */}
 
                             {/* <div className='col-md-6 d-flex part_2'>
                                 <div className='m-auto d-flex align-items-center phWrap'>
@@ -230,7 +227,7 @@ const Footer = () => {
                                 </div>
                             </div> */}
 
-{/* 
+                         {/* 
                             <div className='col-md-3 part3  part_3'>
                                 <div className='d-flex align-items-center'>
                                     <h5>Follow Us</h5>
@@ -249,14 +246,17 @@ const Footer = () => {
                                         </li>
 
                                     </ul>
-                                </div> */}
-                            </div>
-                        </div> */}
+                                </div> 
+                            </div> */}
+                        </div> 
 
                     </div>
-                </footer>
+                             
+                   
+                 </footer>
             </div>
-    )
+       </>        
+     )  
 }
 
 export default Footer;
