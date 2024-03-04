@@ -117,9 +117,11 @@ const Footer = () => {
                                 <p><LocationOnOutlinedIcon /> <strong>Address</strong>: 5171 W Campbell Ave undefined Kent, Utah 53127 United States</p>
                                 <p><HeadphonesOutlinedIcon /> <strong>Call Us:</strong> (+91) - 540-025-124553 </p>
                                 <p><EmailOutlinedIcon /> <strong>Email:</strong> sale@Nest.com</p>
-                                <p><WatchLaterOutlinedIcon /> <strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p> */}
+                                <p><WatchLaterOutlinedIcon /> <strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p> 
 
-                            </div> */}
+                            </div> 
+                            */
+                            }
 
 
                             {/* <div className='col-md-6 part2'>
@@ -251,14 +253,11 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                        </div> */}
+                        </div> 
 
                     </div>
                 </footer>
-
-
             </div>
-        </>
     )
 }
 
