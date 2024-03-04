@@ -19,7 +19,7 @@ const Cart = () => {
 
     useEffect(() => {
         if(context.isLogin==="true"){
-            getCartData("http://localhost:5000/cartItems");
+            getCartData("http://localhost:3006/cartItems");
         }else{
             history('/');
         }
@@ -41,9 +41,9 @@ const Cart = () => {
 
 
     const deleteItem = async (id) => {
-        const response = await axios.delete(`http://localhost:5000/cartItems/${id}`);
+        const response = await axios.delete(`http://localhost:3006/cartItems/${id}`);
         if (response !== null) {
-            getCartData("http://localhost:5000/cartItems");
+            getCartData("http://localhost:3006/cartItems");
             context.removeItemsFromCart(id);
         }
     }
@@ -54,10 +54,10 @@ const Cart = () => {
         let response = null;
         cartItems.length !== 0 &&
             cartItems.map((item) => {
-                response = axios.delete(`http://localhost:5000/cartItems/${parseInt(item.id)}`);
+                response = axios.delete(`http://localhost:3006/cartItems/${parseInt(item.id)}`);
             })
         if (response !== null) {
-            getCartData("http://localhost:5000/cartItems");
+            getCartData("http://localhost:3006/cartItems");
         }
 
         context.emptyCart();
