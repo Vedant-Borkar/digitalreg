@@ -107,7 +107,7 @@ const Footer = () => {
 
                 <footer>
                     <div className='container-fluid'>
-                        <div className='row'>
+                        {/* <div className='row'>
                             <div className='col-md-3 part1'>
                                 <Link to='/'><img src={Logo} /></Link>
                                 <br /><br />
@@ -119,10 +119,10 @@ const Footer = () => {
                                 <p><EmailOutlinedIcon /> <strong>Email:</strong> sale@Nest.com</p>
                                 <p><WatchLaterOutlinedIcon /> <strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p> */}
 
-                            </div>
+                            </div> */}
 
 
-                            <div className='col-md-6 part2'>
+                            {/* <div className='col-md-6 part2'>
                                 <div className='row'>
                                     <div className='col'>
                                         <h3>Company</h3>
@@ -178,7 +178,7 @@ const Footer = () => {
                                         </ul>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
 
 
                             {/* <div className='col-md-3 part3'>
@@ -189,7 +189,7 @@ const Footer = () => {
                                 <div className='d-flex'>
                                     <Link to={''}><img src={appStore} width={150} /></Link>
                                     <Link to={''}><img src={googlePlay} className='mx-2' width={150} /></Link>
-                                </div>
+                                </div> 
 
                                 <br />
 
@@ -197,7 +197,7 @@ const Footer = () => {
                                 <img src={paymentImage} />
                             </div> */}
 
-                        </div>
+                        {/* </div> */}
 
 
                         {/* <hr />
@@ -206,11 +206,11 @@ const Footer = () => {
 
                         <div className='row lastStrip'>
                             <div className='col-md-3 part_1'>
-                                <p>© 2022, Nest - HTML Ecommerce Template
+                                <p>© 2024, Digireg
                                     All rights reserved</p>
                             </div>
 
-                            <div className='col-md-6 d-flex part_2'>
+                            {/* <div className='col-md-6 d-flex part_2'>
                                 <div className='m-auto d-flex align-items-center phWrap'>
                                     <div className='phNo d-flex align-items-center mx-5'>
                                         <span><HeadphonesOutlinedIcon /></span>
@@ -228,7 +228,7 @@ const Footer = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
 
 
                             <div className='col-md-3 part3  part_3'>
