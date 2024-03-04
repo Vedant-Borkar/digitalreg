@@ -107,19 +107,19 @@ const Footer = () => {
 
                 <footer>
                     <div className='container-fluid'>
-                        {/* <div className='row'>
+                        <div className='row'>
                             <div className='col-md-3 part1'>
                                 <Link to='/'><img src={Logo} /></Link>
                                 <br /><br />
                                 <p>Awesome grocery store website</p>
                                 <br />
-{/* 
+                             {/* 
                                 <p><LocationOnOutlinedIcon /> <strong>Address</strong>: 5171 W Campbell Ave undefined Kent, Utah 53127 United States</p>
                                 <p><HeadphonesOutlinedIcon /> <strong>Call Us:</strong> (+91) - 540-025-124553 </p>
                                 <p><EmailOutlinedIcon /> <strong>Email:</strong> sale@Nest.com</p>
                                 <p><WatchLaterOutlinedIcon /> <strong>Hours:</strong> 10:00 - 18:00, Mon - Sat</p> */}
 
-                            </div> */}
+                            </div>
 
 
                             {/* <div className='col-md-6 part2'>
@@ -230,7 +230,7 @@ const Footer = () => {
                                 </div>
                             </div> */}
 
-
+{/* 
                             <div className='col-md-3 part3  part_3'>
                                 <div className='d-flex align-items-center'>
                                     <h5>Follow Us</h5>
@@ -249,9 +249,8 @@ const Footer = () => {
                                         </li>
 
                                     </ul>
-                                </div>
+                                </div> */}
                             </div>
-                        </div> */}
 
                     </div>
                 </footer>
