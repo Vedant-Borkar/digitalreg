@@ -100,7 +100,7 @@ const Nav = (props) => {
                                     }
 
                                     <li className='list-inline-item'>
-                                        <Button onClick={props.closeNav}><Link className='link'>About</Link></Button>
+                                        <Button onClick={props.closeNav}><Link to={'/'} className='link'>About</Link></Button>
                                     </li>
 
 
@@ -140,7 +140,7 @@ const Nav = (props) => {
                                         </div>
                                     </li>
                                     <li className='list-inline-item'>
-                                        <Button><Link className='link'>Blog</Link></Button>
+                                        <Button><Link to={'/'}className='link'>Blog</Link></Button>
                                     </li>
                                     {/* <li className='list-inline-item'>
                                         <Button><Link>Pages  <KeyboardArrowDownIcon /></Link>
@@ -164,7 +164,7 @@ const Nav = (props) => {
 
                                     </li> */}
                                     <li className='list-inline-item'>
-                                        <Button><Link className='link'>Contact</Link></Button>
+                                        <Button><Link to={'/'}className='link'>Contact</Link></Button>
                                     </li>
                                 </ul>
 

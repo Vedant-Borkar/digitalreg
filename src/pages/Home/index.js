@@ -79,7 +79,7 @@ const Home = (props) => {
                             setTimeout(()=>{
                                 setIsLoadingProducts(false);
                             },[1000]);
-                        }
+                        }   
                     }
                 })
 
