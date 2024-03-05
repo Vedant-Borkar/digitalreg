@@ -4,7 +4,7 @@
 
 .nav nav ul li{position: relative;}
 .nav nav ul li button{text-transform: capitalize !important; padding: 21px 25px !important; color: #3bb77e !important; border-radius: 0px !important; }
-.nav nav ul li button a{text-decoration: none !important; color: rgba(0,0,0,0.8) !important;  font-size: 21px;}
+.nav nav ul li button a{text-decoration: none !important; color: black;  font-size: 21px;}
 
 .nav .part3 .phNo svg{ font-size: 45px !important; opacity: 0.8;}
 .nav .part3 .phNo h3{ font-size:32px !important; line-height: 35px !important;}
@@ -25,6 +25,15 @@ nav .dropdown_menu li button:hover{background: #f1f1f1 !important;}
 .megaMenu .col ul li{margin-bottom: 10px !important; display: block;}
 .megaMenu .col ul li a{color: rgba(0,0,0,0.7); font-size: 20px; text-decoration: none;}
 
+<<<<<<< HEAD
 .row{
     justify-content: space-betweennn;
+=======
+.x{
+    background: linear-gradient(180deg, rgb(23, 86, 141) 0%, rgb(35, 35, 149) 16%, rgb(136, 4, 138) 100%);
+}
+
+.link{
+    color: white !important;
+>>>>>>> 7ec0fa6f3ef5c7a1771b629f967fe1cc8c6e5713
 }

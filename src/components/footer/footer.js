@@ -6,7 +6,7 @@ import Icon2 from '../../assets/images/icon-2.svg'
 import Icon3 from '../../assets/images/icon-3.svg'
 import Icon4 from '../../assets/images/icon-4.svg'
 import Icon5 from '../../assets/images/icon-5.svg'
-import Logo from '../../assets/images/logo.svg';
+import Logo from '../../assets/images/logo_dig.png';
 import { Link } from 'react-router-dom';
 import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
 import HeadphonesOutlinedIcon from '@mui/icons-material/HeadphonesOutlined';
@@ -109,9 +109,9 @@ const Footer = () => {
                     <div className='container-fluid'>
                         <div className='row'>
                             <div className='col-md-3 part1'>
-                                <Link to='/'><img src={Logo} /></Link>
-                                <br /><br />
-                                <p>Awesome grocery store website</p>
+                                <Link classname="footerlogo" to='/'><img width={295} src={Logo} /></Link>
+                                
+                                <p>The Awesome grocery store website</p>
                                 <br />
                                                         
                                 {/* <p><LocationOnOutlinedIcon /> <strong>Address</strong>: 5171 W Campbell Ave undefined Kent, Utah 53127 United States</p>
@@ -207,13 +207,13 @@ const Footer = () => {
                                     All rights reserved</p>
                             </div> */}
 
-                            {/* <div className='col-md-6 d-flex part_2'>
+                             <div className='col-md-6 d-flex part_2'>
                                 <div className='m-auto d-flex align-items-center phWrap'>
                                     <div className='phNo d-flex align-items-center mx-5'>
                                         <span><HeadphonesOutlinedIcon /></span>
                                         <div className='info ml-3'>
                                             <h3 className='text-g mb-0'>1900 - 888</h3>
-                                            <p className='mb-0'>24/7 Support Center</p>
+                                            <p className='mb-0'>Site-Owner Vedant Borkar</p>
                                         </div>
                                     </div>
 
@@ -221,11 +221,11 @@ const Footer = () => {
                                         <span><HeadphonesOutlinedIcon /></span>
                                         <div className='info ml-3'>
                                             <h3 className='text-g mb-0'>1900 - 888</h3>
-                                            <p className='mb-0'>24/7 Support Center</p>
+                                            <p className='mb-0'> Shreya Bhatia</p>
                                         </div>
                                     </div>
                                 </div>
-                            </div> */}
+                            </div> 
 
                          {/* 
                             <div className='col-md-3 part3  part_3'>

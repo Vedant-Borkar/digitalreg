@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import '../header/header.css';
-import Logo from '../../assets/images/logo.svg';
+import Logo from '../../assets/digismollogo70px.png';
 import SearchIcon from '@mui/icons-material/Search';
 import Select from '../selectDrop/select';
 import axios from 'axios';

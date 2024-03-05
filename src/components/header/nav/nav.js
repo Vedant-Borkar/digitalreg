@@ -45,7 +45,7 @@ const Nav = (props) => {
                 isOpenNav === true && <div className='navbarOverlay' onClick={props.closeNav}></div>
             }
             <div className={`nav d-flex align-items-center ${isOpenNav === true && 'click'}`}>
-                <div className='container-fluid'>
+                <div className='container-fluid x'>
                     <div className='row position-relative'>
                         <div className='col-sm-2 part1 d-flex align-items-center'>
                             <Button className='bg-g text-white catTab res-hide'>
@@ -56,7 +56,7 @@ const Nav = (props) => {
                             <nav className={isOpenNav === true ? 'open' : ''}>
                                 <ul className='list list-inline mb-0'>
                                     <li className='list-inline-item'>
-                                        <Button><Link to={'/'} onClick={props.closeNav}>Home</Link></Button>
+                                        <Button><Link to={'/'} onClick={props.closeNav} className='link'>Home</Link></Button>
                                     </li>
                                     
                                     {/* {
@@ -100,12 +100,12 @@ const Nav = (props) => {
                                     } */}
 
                                     <li className='list-inline-item'>
-                                        <Button onClick={props.closeNav}><Link>About</Link></Button>
+                                        <Button onClick={props.closeNav}><Link to={'/'} className='link'>About</Link></Button>
                                     </li>
 
 
                                     <li className='list-inline-item position-static'>
-                                        <Button onClick={()=>setOpenMegaMenu(!openMegaMenu)}><Link>Shop <KeyboardArrowDownIcon   className={`${openMegaMenu===true &&  'rotateIcon'}`}/></Link></Button>
+                                        <Button onClick={()=>setOpenMegaMenu(!openMegaMenu)}><Link className='link'>Shop <KeyboardArrowDownIcon   className={`${openMegaMenu===true &&  'rotateIcon'}`}/></Link></Button>
                                         <div className={`dropdown_menu megaMenu w-100 ${openMegaMenu===true && 'open'}`}>
                                             <div className='row'>
                                                 {
@@ -140,7 +140,7 @@ const Nav = (props) => {
                                         </div>
                                     </li>
                                     <li className='list-inline-item'>
-                                        <Button><Link>Blog</Link></Button>
+                                        <Button><Link to={'/'}className='link'>Blog</Link></Button>
                                     </li>
                                     {/* <li className='list-inline-item'>
                                         <Button><Link>Pages  <KeyboardArrowDownIcon /></Link>
@@ -164,7 +164,7 @@ const Nav = (props) => {
 
                                     </li> */}
                                     <li className='list-inline-item'>
-                                        <Button><Link>Contact</Link></Button>
+                                        <Button><Link to={'/'}className='link'>Contact</Link></Button>
                                     </li>
                                 </ul>
 
@@ -189,11 +189,13 @@ const Nav = (props) => {
 
                         <div className='col-sm-2 part3 d-flex align-items-center'>
                             <div className='phNo d-flex align-items-center ml-auto'>
-                                {/* <span><HeadphonesOutlinedIcon /></span> */}
-                                {/* <div className='info ml-3'>
+                                <span><HeadphonesOutlinedIcon /></span>
+                                <div className='info ml-3'>
                                     <h3 className='text-g mb-0'>1900 - 888</h3>
                                     <p className='mb-0'>24/7 Support Center</p>
-                                </div> */}
+                                </div>
+                                    <p className='mb-0 link'>24/7 Support Center</p>
+                                </div>
                             </div>
                         </div>
                     </div>
