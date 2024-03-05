@@ -25,15 +25,13 @@ nav .dropdown_menu li button:hover{background: #f1f1f1 !important;}
 .megaMenu .col ul li{margin-bottom: 10px !important; display: block;}
 .megaMenu .col ul li a{color: rgba(0,0,0,0.7); font-size: 20px; text-decoration: none;}
 
-<<<<<<< HEAD
 .row{
-    justify-content: space-betweennn;
-=======
+    justify-content: space-between;
+}
 .x{
     background: linear-gradient(180deg, rgb(23, 86, 141) 0%, rgb(35, 35, 149) 16%, rgb(136, 4, 138) 100%);
 }
 
 .link{
     color: white !important;
->>>>>>> 7ec0fa6f3ef5c7a1771b629f967fe1cc8c6e5713
 }

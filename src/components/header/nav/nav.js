@@ -187,7 +187,7 @@ const Nav = (props) => {
                             </nav>
                         </div>
 
-                        <div className='col-sm-2 part3 d-flex align-items-center'>
+                        {/* <div className='col-sm-2 part3 d-flex align-items-center'>
                             <div className='phNo d-flex align-items-center ml-auto'>
                                 <span><HeadphonesOutlinedIcon /></span>
                                 <div className='info ml-3'>
@@ -197,7 +197,7 @@ const Nav = (props) => {
                                     <p className='mb-0 link'>24/7 Support Center</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
