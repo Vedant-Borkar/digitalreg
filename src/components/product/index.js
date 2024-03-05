@@ -45,7 +45,7 @@ const Product = (props) => {
             {
                 productData !== undefined &&
                 <>
-                    <Link to={`/product/${productData.id}`}>
+                    {/* <Link to={`/product/${productData.id}`}> */}
                         <div className='imgWrapper'>
                             <div className='p-4 wrapper mb-3'>
                                 <img src={productData.catImg+'?im=Resize=(420,420)'} className='w-100' />
@@ -72,11 +72,11 @@ const Product = (props) => {
                             </div>
                         </div>
 
-                    </Link>
+                    {/* </Link> */}
 
                     <div className='info'>
                         <span className='d-block catName'>{productData.brand}</span>
-                        <h4 className='title'><Link>{productData.productName.substr(0,50)+'...'}</Link></h4>
+                        <h4 className='title'>{productData.productName.substr(0,50)+'...'}</h4>
                         <Rating name="half-rating-read" 
                         value={parseFloat(productData.rating)} precision={0.5} readOnly />
                         <span className='brand d-block text-g'>By <Link className='text-g'>{productData.brand}</Link></span>

@@ -59,7 +59,7 @@ const Nav = (props) => {
                                         <Button><Link to={'/'} onClick={props.closeNav}>Home</Link></Button>
                                     </li>
                                     
-                                    {
+                                    {/* {
                                         navData.length !== 0 &&
                                         navData.map((item, index) => {
                                             return (
@@ -97,7 +97,7 @@ const Nav = (props) => {
                                             )
 
                                         })
-                                    }
+                                    } */}
 
                                     <li className='list-inline-item'>
                                         <Button onClick={props.closeNav}><Link>About</Link></Button>
@@ -134,7 +134,7 @@ const Nav = (props) => {
                                                 }
 
                                                 <div className='col'>
-                                                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-menu.png" className='w-100' />
+                                                    <img src="https://wp.alithemes.com/html/nest/demo/assets/imgs/banner/banner-menu.png" width={500}/>
                                                 </div>
                                             </div>
                                         </div>
@@ -189,11 +189,11 @@ const Nav = (props) => {
 
                         <div className='col-sm-2 part3 d-flex align-items-center'>
                             <div className='phNo d-flex align-items-center ml-auto'>
-                                <span><HeadphonesOutlinedIcon /></span>
-                                <div className='info ml-3'>
+                                {/* <span><HeadphonesOutlinedIcon /></span> */}
+                                {/* <div className='info ml-3'>
                                     <h3 className='text-g mb-0'>1900 - 888</h3>
                                     <p className='mb-0'>24/7 Support Center</p>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
