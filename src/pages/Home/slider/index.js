@@ -30,7 +30,7 @@ const HomeSlider = () => {
     return (
         <section className='homeSlider'>
             <div className='container-fluid position-relative'>
-                <Slider {...settings} className='home_slider_Main'>
+                <Slider {...settings} arrows={true} autoplay={true} className='home_slider_Main'>
                     <div className="item">
                         <img src={Slide1} className='w-100' />
                         <div className='info'>
